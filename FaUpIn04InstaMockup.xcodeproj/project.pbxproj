@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D811C11E2BF38D4800EA8163 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D811C11D2BF38D4800EA8163 /* ProfileViewController.swift */; };
+		D811C1212BF3992F00EA8163 /* ProfileDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D811C1202BF3992F00EA8163 /* ProfileDataView.swift */; };
+		D811C1232BF3B03000EA8163 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D811C1222BF3B03000EA8163 /* ProfileCollectionViewCell.swift */; };
 		D8A59BB72BF226C3001BA033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A59BB62BF226C3001BA033 /* AppDelegate.swift */; };
 		D8A59BB92BF226C3001BA033 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A59BB82BF226C3001BA033 /* SceneDelegate.swift */; };
 		D8A59BBB2BF226C3001BA033 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A59BBA2BF226C3001BA033 /* FeedViewController.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D811C11D2BF38D4800EA8163 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D811C1202BF3992F00EA8163 /* ProfileDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataView.swift; sourceTree = "<group>"; };
+		D811C1222BF3B03000EA8163 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		D8A59BB32BF226C3001BA033 /* FaUpIn04InstaMockup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaUpIn04InstaMockup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A59BB62BF226C3001BA033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8A59BB82BF226C3001BA033 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +51,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D811C11C2BF38D1000EA8163 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				D8A59BBA2BF226C3001BA033 /* FeedViewController.swift */,
+				D8A59BD22BF25091001BA033 /* FeedTableViewCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		D811C11F2BF38D5600EA8163 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D811C11D2BF38D4800EA8163 /* ProfileViewController.swift */,
+				D811C1202BF3992F00EA8163 /* ProfileDataView.swift */,
+				D811C1222BF3B03000EA8163 /* ProfileCollectionViewCell.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		D8A59BAA2BF226C3001BA033 = {
 			isa = PBXGroup;
 			children = (
@@ -78,9 +103,9 @@
 		D8A59BD12BF23840001BA033 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				D8A59BBA2BF226C3001BA033 /* FeedViewController.swift */,
-				D8A59BD22BF25091001BA033 /* FeedTableViewCell.swift */,
+				D811C11C2BF38D1000EA8163 /* Feed */,
 				D8A59BCF2BF23827001BA033 /* TabBarController.swift */,
+				D811C11F2BF38D5600EA8163 /* Profile */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -163,10 +188,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8A59BBB2BF226C3001BA033 /* FeedViewController.swift in Sources */,
+				D811C1232BF3B03000EA8163 /* ProfileCollectionViewCell.swift in Sources */,
 				D8A59BD52BF26DDB001BA033 /* UIButton+.swift in Sources */,
 				D8A59BD02BF23827001BA033 /* TabBarController.swift in Sources */,
 				D8A59BB72BF226C3001BA033 /* AppDelegate.swift in Sources */,
+				D811C11E2BF38D4800EA8163 /* ProfileViewController.swift in Sources */,
 				D8A59BB92BF226C3001BA033 /* SceneDelegate.swift in Sources */,
+				D811C1212BF3992F00EA8163 /* ProfileDataView.swift in Sources */,
 				D8A59BD32BF25091001BA033 /* FeedTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
