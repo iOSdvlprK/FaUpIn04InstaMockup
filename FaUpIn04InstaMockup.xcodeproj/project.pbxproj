@@ -20,6 +20,7 @@
 		D8A59BD02BF23827001BA033 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A59BCF2BF23827001BA033 /* TabBarController.swift */; };
 		D8A59BD32BF25091001BA033 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A59BD22BF25091001BA033 /* FeedTableViewCell.swift */; };
 		D8A59BD52BF26DDB001BA033 /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A59BD42BF26DDB001BA033 /* UIButton+.swift */; };
+		D8B7900D2BF4FB6700950DEE /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7900C2BF4FB6700950DEE /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D8A59BCF2BF23827001BA033 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		D8A59BD22BF25091001BA033 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		D8A59BD42BF26DDB001BA033 /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
+		D8B7900C2BF4FB6700950DEE /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D8A59BBA2BF226C3001BA033 /* FeedViewController.swift */,
 				D8A59BD22BF25091001BA033 /* FeedTableViewCell.swift */,
+				D8B7900C2BF4FB6700950DEE /* UploadViewController.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8A59BBB2BF226C3001BA033 /* FeedViewController.swift in Sources */,
+				D8B7900D2BF4FB6700950DEE /* UploadViewController.swift in Sources */,
 				D811C1232BF3B03000EA8163 /* ProfileCollectionViewCell.swift in Sources */,
 				D8A59BD52BF26DDB001BA033 /* UIButton+.swift in Sources */,
 				D8A59BD02BF23827001BA033 /* TabBarController.swift in Sources */,
